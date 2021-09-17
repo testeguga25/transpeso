@@ -38,6 +38,7 @@ max-width: 1000px;
     
     
     
+    
 }
 #menu ul li a{
     color: rgb(43, 96, 145);
@@ -46,7 +47,7 @@ max-width: 1000px;
 }
 .se{
 display: block;
-background: url(./img//agrvai.jpg);
+background: url(../img//agrvai.jpg);
 background-size:  100% auto;
 background-repeat: no-repeat;
 background-attachment: local;
@@ -100,7 +101,7 @@ max-width: auto;
 @media (min-width:1600px)  {
     .se{
         display: block;
-        background: url(./img//agrvai.jpg);
+        background: url(../img//agrvai.jpg);
         background-size:  100% auto;
         background-repeat: no-repeat;
         background-attachment: local;
@@ -140,12 +141,13 @@ max-width: auto;
     font-weight: 500;
 }
 @media(max-width:500px){
+    
     .limite{
         height: 800px;
         height: 100%;
     }
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(./img/munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(../img/munksfile-min.png);
         position: relative;
         
         background-position: -200px auto;
@@ -161,12 +163,20 @@ max-width: auto;
 }
 
 @media (min-width:500px){
+    #menu ul li {
+        display: inline-block;
+        padding: 6px;
+        font-size: 13pt;
+        
+        
+        
+    }
     .limite{
         height: 800px;
         height: 100%;
     }
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)),url(./img/grrandedms-min\ \(5\).png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)),url(../img/grrandedms-min\ \(5\).png);
         position: relative;
         
         background-position: 0 center;
@@ -393,7 +403,7 @@ text-align: center;
     .equipamentos{
 
         position: relative;
-    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(./img/equip.jpg);
+    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(../img/equip.jpg);
     background-position: 0 center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -417,7 +427,7 @@ text-align: center;
         height: 100%;
     }
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(./img/munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(../img/munksfile-min.png);
         position: relative;
         
         background-position: center center;
